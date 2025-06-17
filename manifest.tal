@@ -448,4 +448,4 @@ JMP2r
 @fill-icn
 	ffff ffff ffff ffff
 
-~src/assets.tal
+~assets.tal

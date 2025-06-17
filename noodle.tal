@@ -1701,4 +1701,4 @@ JMP2r
 	&depth $1
 	&descriptor $1
 
-~src/manifest.tal
+~manifest.tal

@@ -16,7 +16,6 @@
       system:
       let
         pkgs = import nixpkgs { inherit system; };
-        uxn = pkgs.uxn;
       in
       {
         packages = {
@@ -25,7 +24,7 @@
             stdenv.mkDerivation {
               name = "noodle";
 
-              nativeBuildInputs = [
+              nativeBuildInputs = with pkgs; [
                 uxn
               ];
 

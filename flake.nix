@@ -47,7 +47,6 @@
               installPhase = ''
                 mkdir -p $out/bin
                 cp noodle.rom $out/bin
-                cp src/manifest.tal $out/bin
               '';
             };
         };
